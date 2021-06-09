@@ -13,7 +13,6 @@
 }
 .menu {
   color:#fff;
-  border: 2px solid blue;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -21,7 +20,6 @@
 .menu-left,
 .menu-rigth {
   display: block;
-  border: 2px solid yellow;
   width: 530px;
   text-align: center;
   margin: 0 80px;
@@ -49,7 +47,6 @@
   position: absolute;
   top: 25px;
   left:0;
-  border: 2px solid #fff;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -61,7 +58,6 @@
   display: flex;
   height: 690px;
 }
-
 .working-hours {
   width: 20%;
   font-size: 12px;
@@ -70,6 +66,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.vertical {
+  margin: 0;
+  padding-bottom: 150px;
 }
 p.vertical {
   -webkit-transform: rotate(-90deg); 
@@ -80,9 +80,6 @@ p.vertical {
 } 
 .title-centry {
   width: 60%;
-}
-.messendger {
-  width: 20%;
 }
 .lineX {
   border: 1px solid rgb(101, 102, 101);
@@ -95,11 +92,9 @@ p.vertical {
   line-height: 14px;
   margin-top: 225px;
   text-align: center;
-  border:2px solid red;
   letter-spacing: 0.5em;
 }
 .title-large {
-  border:2px solid green;
   font-size: 96px;
   text-align: center;
 }
@@ -112,7 +107,6 @@ p.vertical {
 }
 .buttons {
   margin-top: 36px;
-  border:2px solid red;
   display: flex;
   justify-content: center;
 }
@@ -135,7 +129,6 @@ p.vertical {
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  border:2px solid rgb(19, 230, 47);
 }
 .button-text {
   text-align: center;
@@ -150,16 +143,14 @@ p.vertical {
   height: 60px;
   margin:0 auto;
 }
-
 .messengers {
+  width: 20%;
   align-self: center;
   flex-direction: column;
 }
 .messenger {
- 
   width: 60px;
   height: 60px;
-  justify-content: center;
-  
-
+  margin-top: 20px;
+  margin-left: 150px;
 }
