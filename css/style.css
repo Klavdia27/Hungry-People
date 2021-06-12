@@ -170,7 +170,9 @@ p.vertical {
   height: 475px;
   padding: 100px;
 }
-.about-left {
+.about-left, 
+.master-left,
+.chocolate-left {
   width: 50%;
   position: relative;  
 }
@@ -188,6 +190,8 @@ p.vertical {
   display: flex;
   text-align: center;
   margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .about-text {
   max-width: 600px;
@@ -215,11 +219,12 @@ p.vertical {
   height: 250px;
   border-radius: 5px;
 }
-.master {
+.container-master {
   height: 675px;
   background-image: url("../img/special.jpg");
 }
-.master-rectangle {
+.master-rectangle,
+.chocolate-rectangle {
   margin-top: 112px;
   left: -120px;
   position: absolute;
@@ -235,25 +240,25 @@ p.vertical {
   justify-content: center;
   height: 100px;
 }
-
-.master-img {
+.master-img,
+.chocolate-img {
   width: 475px;
   height: 475px;  
+  border-radius: 5px;
 }
 .master-group {
   display: flex;
   margin-left: 193px;;
 }
-.master-right {
-  color: #fff;
-}
-.master-title {
+.master-title,
+.chocolate-title {
   margin-top: 117px;
   text-align: center;
   font-size: 36px;
   line-height: 48px;
 }
-.master-subtitle {
+.master-subtitle,
+.chocolate-subtitle {
   max-width: 600px;
   font-weight: bold;
   font-size: 18px;
@@ -261,23 +266,29 @@ p.vertical {
   display: flex;
   text-align: center;
   margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.master-text {
+.master-text,
+.chocolate-text {
   max-width: 600px;
   font-size: 14px;
   line-height: 24px;
   display: flex;
   text-align: center;
 }
-.master-right {
+.master-right,
+.chocolate-right {
   margin-right: 100px;
+  color: #fff;
 }
 .container-book {
   height: 775px;
   background-color: #fff;
   padding-top: 100px;
 }
-.master-group {
+.master-group,
+.chocolate-group {
   display: flex;
   margin-left: 193px;;
 }
@@ -328,4 +339,25 @@ width: 580px;
   width: 568px;
   background-color: #E8C300;
   color: #fff;
+}
+.container-chocolate {
+  height: 675px;
+  background-image: url("../img/bg-chocolate.jpg");
+}
+.chocolate-upper {
+  height: 100px;
+}
+.chocolate-center {
+  height: 475px;
+}
+.chocolate-bottom {
+  height: 100px;
+}
+.chocolate-circle {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.chocolate-group {
+  display: flex;
+  margin-left: 193px;;
 }
