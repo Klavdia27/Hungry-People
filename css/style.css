@@ -9,6 +9,7 @@ body {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  
 }
 .container-header {
   background-image: url("../img/header-bg.png");
@@ -172,7 +173,8 @@ p.vertical {
 }
 .about-left, 
 .master-left,
-.chocolate-left {
+.chocolate-left,
+.private-left {
   width: 50%;
   position: relative;  
 }
@@ -205,11 +207,16 @@ p.vertical {
   position: relative;
 }
 .about-img,
-.book-img {
+.book-img  {
   width: 475px;
   height: 475px;
   border-radius: 5px;
   box-shadow: 0px 0px 30px 10px rgb(157 157 158 / 92%);
+}
+.wedding-img {
+  width: 475px;
+  height: 475px;
+  border-radius: 5px;
 }
 .about-rectangle {
   margin-top: 112px;
@@ -241,7 +248,8 @@ p.vertical {
   height: 100px;
 }
 .master-img,
-.chocolate-img {
+.chocolate-img,
+.ring-img {
   width: 475px;
   height: 475px;  
   border-radius: 5px;
@@ -309,7 +317,8 @@ p.vertical {
 margin-left: 135px;
 width: 580px;
 }
-.book-right {
+.book-right,
+.private-right {
   margin-left: 25px;
   width: 640px;
   position: relative;
@@ -344,14 +353,14 @@ width: 580px;
   height: 675px;
   background-image: url("../img/bg-chocolate.jpg");
 }
-.chocolate-upper {
+.chocolate-upper,
+.chocolate-bottom,
+.private-upper,
+.private-bottom {
   height: 100px;
 }
 .chocolate-center {
   height: 475px;
-}
-.chocolate-bottom {
-  height: 100px;
 }
 .chocolate-circle {
   margin-left: 12px;
@@ -360,4 +369,95 @@ width: 580px;
 .chocolate-group {
   display: flex;
   margin-left: 193px;;
+}
+.container-menu {
+  height: 920px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-group {
+  width: 1280px;
+  height: 720px;
+}
+.menu-title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 48px;
+}
+.menu-subtitle {
+  align-items: center;
+  font-style: bond;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 565px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu-line {
+  margin-top: 50px;;
+  margin-bottom: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.menu-line-text {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-item {
+  height: 66px;
+  padding: 0;
+  text-align: left;
+  
+}
+.list-group-food {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.list-item {
+  margin-left: 0;
+}
+.column-3 {
+  -webkit-column-count: 3;
+  padding-left: 0;
+  -webkit-column-gap: 95px;
+}
+.name-food {
+  font-size: 18px;
+  line-height: 18px;
+}
+.dics-food {
+  font-size: 12px;
+  line-height: 18px;
+}
+.container-private {
+  height: 675px;
+  background-image: url("../img/bg-private.jpg");
+}
+.team-private {
+  font-size: 12px;
+}
+.private-group {
+  display: flex;
+  margin-left: 193px;;
+}
+.ring1-img {
+  position: absolute;
+  left: 398px;
+}
+.wedding1-img {
+  position: absolute;
+  left: 0px;
+}
+.container-foto {
+height: 360px;
+display: flex;
 }
