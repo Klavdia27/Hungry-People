@@ -172,6 +172,7 @@ p.vertical {
 }
 .about-left {
   width: 50%;
+  position: relative;  
 }
 .about-title {
   margin-top: 117px;
@@ -197,6 +198,7 @@ p.vertical {
 }
 .about-right {
   width: 50%;
+  position: relative;
 }
 .about-img,
 .book-img {
@@ -205,10 +207,9 @@ p.vertical {
   border-radius: 5px;
   box-shadow: 0px 0px 30px 10px rgb(157 157 158 / 92%);
 }
-.about-rectangle,
-.master-rectangle {
+.about-rectangle {
   margin-top: 112px;
-  right: 570px;
+  right: 45px;
   position: absolute;
   width: 250px;
   height: 250px;
@@ -218,6 +219,14 @@ p.vertical {
   height: 675px;
   background-image: url("../img/special.jpg");
 }
+.master-rectangle {
+  margin-top: 112px;
+  left: -120px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
 .team {
   color: #fff;
   display: flex;
@@ -226,14 +235,7 @@ p.vertical {
   justify-content: center;
   height: 100px;
 }
-.master-rectangle {
-  margin-top: 112px;
-  right: 570px;
-  left: 540px;
-  position: absolute;
-  width: 250px;
-  height: 250px;
-}
+
 .master-img {
   width: 475px;
   height: 475px;  
@@ -299,6 +301,7 @@ width: 580px;
 .book-right {
   margin-left: 25px;
   width: 640px;
+  position: relative;
   }
 .book-title {
   margin-top: 62px;
