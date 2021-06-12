@@ -212,9 +212,61 @@ p.vertical {
   width: 250px;
   height: 250px;
   border-radius: 5px;
-  box-shadow: 0px 0px 100px 10px rgb(157 157 158 / 92%);
 }
 .master {
   height: 675px;
   background-image: url("../img/special.jpg");
+}
+.team {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  justify-content: center;
+  height: 100px;
+}
+.master-rectangle {
+  margin-top: 112px;
+  right: 570px;
+  left: 540px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+.master-img {
+  width: 475px;
+  height: 475px;  
+}
+.master-group {
+  display: flex;
+  margin-left: 193px;;
+}
+.master-right {
+  color: #fff;
+}
+
+.master-title {
+  margin-top: 117px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 48px;
+}
+.master-subtitle {
+  max-width: 600px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  text-align: center;
+  margin: 0;
+}
+.master-text {
+  max-width: 600px;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+}
+.master-right {
+  margin-right: 100px;
 }
