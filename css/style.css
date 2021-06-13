@@ -9,7 +9,6 @@ body {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  
 }
 .container-header {
   background-image: url("../img/header-bg.png");
@@ -314,8 +313,8 @@ p.vertical {
   padding-top: 100px;
 }
 .book-left {
-margin-left: 135px;
-width: 580px;
+  margin-left: 135px;
+  width: 580px;
 }
 .book-right,
 .private-right {
@@ -343,6 +342,9 @@ width: 580px;
   margin-right: 10px;
   padding: 0;
   color: #333333;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding-left: 20px;
 }
 .button-book-long {
   width: 568px;
@@ -381,17 +383,20 @@ width: 580px;
   width: 1280px;
   height: 720px;
 }
-.menu-title {
+.menu-title,
+.contact-title {
   text-align: center;
   font-size: 36px;
   line-height: 48px;
 }
-.menu-subtitle {
+.menu-subtitle,
+.contact-subtitle {
   align-items: center;
   font-style: bond;
   font-size: 18px;
   line-height: 28px;
   max-width: 565px;
+  height: 76px;
   font-weight: bold;
   margin: 0 auto;
   text-align: center;
@@ -415,7 +420,6 @@ width: 580px;
   height: 66px;
   padding: 0;
   text-align: left;
-  
 }
 .list-group-food {
   list-style-type: none;
@@ -458,6 +462,82 @@ width: 580px;
   left: 0px;
 }
 .container-foto {
-height: 360px;
-display: flex;
+  height: 360px;
+  display: flex;
+}
+.container-contact {
+  height: 647px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-group {
+  width: 1280px;
+  height: 447px;
+}
+.button-contact-group,
+.button-contact-messang {
+  display: flex;
+  justify-content: space-between;
+}
+.button-contact {
+  width: 420px;
+  height: 60px;
+  background-color: #E5E5E5;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+  color: #333333;
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.button-message {
+  margin-top: 10px;
+  width: 1280px;
+  height: 120px;
+  background-color: #E5E5E5;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+  color: #333333;
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.button-contact-messang {
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.button-messang-send {
+  width: 640px;
+  height: 60px;
+  border: none;
+  background-color: #E8C300;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+}
+.contact-menu {
+  display: flex;
+  width: 630px;
+  height: 60px;
+}
+.maps {
+  width: 1440px;
+  height: 475px;
+  margin:0;
+}
+.bottom-end {
+  width: 1440px;
+  height: 100px;  
+  background: rgb(5, 5, 5);
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  justify-content: center;
+  margin:0;
+}
+.end-text {
+  color: rgb(131, 116, 116);
 }
